@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-gI3J5bp41F5WsaCqt4u2tqFrf</string>
+			</array>
+		</dict>
+	</array>
+	<key>TwitterConsumerKey</key>
+	<string>gI3J5bp41F5WsaCqt4u2tqFrf</string>
+	<key>TwitterConsumerSecret</key>
+	<string>PVkF7O3PvpRI8RKwPpJyt3nWuFh1uGpZgpZr71jOXOHVN1Uw6B</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

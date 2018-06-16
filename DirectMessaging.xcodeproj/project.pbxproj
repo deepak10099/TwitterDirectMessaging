@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005A488020D561EC006372FD /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A487F20D561EC006372FD /* Follower.swift */; };
+		005A488220D56249006372FD /* FollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A488120D56249006372FD /* FollowersViewController.swift */; };
+		005A488420D56BF1006372FD /* FollowersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A488320D56BF1006372FD /* FollowersViewModel.swift */; };
+		005A488620D57966006372FD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A488520D57966006372FD /* HomeViewModel.swift */; };
+		005A488A20D57CE7006372FD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A488920D57CE7006372FD /* LoginViewModel.swift */; };
+		00C3ACBA20D5509700179BDB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3ACB920D5509700179BDB /* LoginViewController.swift */; };
+		00C3ACBC20D552BC00179BDB /* DirectMessaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C3ACBB20D552BC00179BDB /* DirectMessaging.swift */; };
 		00ED7B1120D5325D0018546E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED7B1020D5325D0018546E /* AppDelegate.swift */; };
-		00ED7B1320D5325D0018546E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED7B1220D5325D0018546E /* ViewController.swift */; };
+		00ED7B1320D5325D0018546E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED7B1220D5325D0018546E /* HomeViewController.swift */; };
 		00ED7B1620D5325D0018546E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED7B1420D5325D0018546E /* Main.storyboard */; };
 		00ED7B1820D5325E0018546E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ED7B1720D5325E0018546E /* Assets.xcassets */; };
 		00ED7B1B20D5325E0018546E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED7B1920D5325E0018546E /* LaunchScreen.storyboard */; };
 		00ED7B2620D5325F0018546E /* DirectMessagingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED7B2520D5325F0018546E /* DirectMessagingTests.swift */; };
 		00ED7B3120D5325F0018546E /* DirectMessagingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED7B3020D5325F0018546E /* DirectMessagingUITests.swift */; };
+		53756F30B7295E8F9A5D0172 /* Pods_DirectMessagingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B31252BB713BDBC6DEFB1E /* Pods_DirectMessagingTests.framework */; };
+		72285C68E9FD0E94787CC87D /* Pods_DirectMessagingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C19C6AD1970D52676B0B189 /* Pods_DirectMessagingUITests.framework */; };
+		B2E2663A429855DC229AB06A /* Pods_DirectMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A922DDA509E04FE52897BA /* Pods_DirectMessaging.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005A487F20D561EC006372FD /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		005A488120D56249006372FD /* FollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewController.swift; sourceTree = "<group>"; };
+		005A488320D56BF1006372FD /* FollowersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersViewModel.swift; sourceTree = "<group>"; };
+		005A488520D57966006372FD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		005A488920D57CE7006372FD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		00C3ACB920D5509700179BDB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00C3ACBB20D552BC00179BDB /* DirectMessaging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectMessaging.swift; sourceTree = "<group>"; };
 		00ED7B0D20D5325D0018546E /* DirectMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ED7B1020D5325D0018546E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00ED7B1220D5325D0018546E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00ED7B1220D5325D0018546E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		00ED7B1520D5325D0018546E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00ED7B1720D5325E0018546E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00ED7B1A20D5325E0018546E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,15 @@
 		00ED7B2C20D5325F0018546E /* DirectMessagingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectMessagingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ED7B3020D5325F0018546E /* DirectMessagingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessagingUITests.swift; sourceTree = "<group>"; };
 		00ED7B3220D5325F0018546E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A226FA1781AF5EAB2FEF16E /* Pods-DirectMessaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectMessaging.release.xcconfig"; path = "Pods/Target Support Files/Pods-DirectMessaging/Pods-DirectMessaging.release.xcconfig"; sourceTree = "<group>"; };
+		3C19C6AD1970D52676B0B189 /* Pods_DirectMessagingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectMessagingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A922DDA509E04FE52897BA /* Pods_DirectMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA7511C9C07EBE0B1EFF399 /* Pods-DirectMessagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectMessagingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DirectMessagingTests/Pods-DirectMessagingTests.release.xcconfig"; sourceTree = "<group>"; };
+		7ABB4F4515382D57462B1305 /* Pods-DirectMessaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectMessaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DirectMessaging/Pods-DirectMessaging.debug.xcconfig"; sourceTree = "<group>"; };
+		8C3F6D9655038DAC1F65C2AA /* Pods-DirectMessagingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectMessagingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DirectMessagingUITests/Pods-DirectMessagingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B21C2F39BFDAB7792697FB11 /* Pods-DirectMessagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectMessagingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DirectMessagingTests/Pods-DirectMessagingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4EAA7F739B1E1142319261 /* Pods-DirectMessagingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DirectMessagingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DirectMessagingUITests/Pods-DirectMessagingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B31252BB713BDBC6DEFB1E /* Pods_DirectMessagingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DirectMessagingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E2663A429855DC229AB06A /* Pods_DirectMessaging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53756F30B7295E8F9A5D0172 /* Pods_DirectMessagingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72285C68E9FD0E94787CC87D /* Pods_DirectMessagingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +110,8 @@
 				00ED7B2420D5325F0018546E /* DirectMessagingTests */,
 				00ED7B2F20D5325F0018546E /* DirectMessagingUITests */,
 				00ED7B0E20D5325D0018546E /* Products */,
+				46D727EAF247478A0192AFC0 /* Pods */,
+				A17156FF8BA01D7208BD2F31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +129,18 @@
 			isa = PBXGroup;
 			children = (
 				00ED7B1020D5325D0018546E /* AppDelegate.swift */,
-				00ED7B1220D5325D0018546E /* ViewController.swift */,
+				00ED7B1220D5325D0018546E /* HomeViewController.swift */,
+				00C3ACB920D5509700179BDB /* LoginViewController.swift */,
+				00C3ACBB20D552BC00179BDB /* DirectMessaging.swift */,
+				005A488120D56249006372FD /* FollowersViewController.swift */,
 				00ED7B1420D5325D0018546E /* Main.storyboard */,
 				00ED7B1720D5325E0018546E /* Assets.xcassets */,
 				00ED7B1920D5325E0018546E /* LaunchScreen.storyboard */,
 				00ED7B1C20D5325E0018546E /* Info.plist */,
+				005A487F20D561EC006372FD /* Follower.swift */,
+				005A488520D57966006372FD /* HomeViewModel.swift */,
+				005A488920D57CE7006372FD /* LoginViewModel.swift */,
+				005A488320D56BF1006372FD /* FollowersViewModel.swift */,
 			);
 			path = DirectMessaging;
 			sourceTree = "<group>";
@@ -125,6 +163,29 @@
 			path = DirectMessagingUITests;
 			sourceTree = "<group>";
 		};
+		46D727EAF247478A0192AFC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ABB4F4515382D57462B1305 /* Pods-DirectMessaging.debug.xcconfig */,
+				3A226FA1781AF5EAB2FEF16E /* Pods-DirectMessaging.release.xcconfig */,
+				B21C2F39BFDAB7792697FB11 /* Pods-DirectMessagingTests.debug.xcconfig */,
+				7AA7511C9C07EBE0B1EFF399 /* Pods-DirectMessagingTests.release.xcconfig */,
+				CD4EAA7F739B1E1142319261 /* Pods-DirectMessagingUITests.debug.xcconfig */,
+				8C3F6D9655038DAC1F65C2AA /* Pods-DirectMessagingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A17156FF8BA01D7208BD2F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A922DDA509E04FE52897BA /* Pods_DirectMessaging.framework */,
+				F5B31252BB713BDBC6DEFB1E /* Pods_DirectMessagingTests.framework */,
+				3C19C6AD1970D52676B0B189 /* Pods_DirectMessagingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00ED7B3520D5325F0018546E /* Build configuration list for PBXNativeTarget "DirectMessaging" */;
 			buildPhases = (
+				7ACB4C0EA9C321EE15319161 /* [CP] Check Pods Manifest.lock */,
 				00ED7B0920D5325D0018546E /* Sources */,
 				00ED7B0A20D5325D0018546E /* Frameworks */,
 				00ED7B0B20D5325D0018546E /* Resources */,
+				3076EDD465A4D32CDAF08631 /* [CP] Embed Pods Frameworks */,
+				BB56E17B0EDEFADC121AE152 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00ED7B3820D5325F0018546E /* Build configuration list for PBXNativeTarget "DirectMessagingTests" */;
 			buildPhases = (
+				EF84C90BAE35CE14D65EDEA3 /* [CP] Check Pods Manifest.lock */,
 				00ED7B1D20D5325F0018546E /* Sources */,
 				00ED7B1E20D5325F0018546E /* Frameworks */,
 				00ED7B1F20D5325F0018546E /* Resources */,
@@ -167,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00ED7B3B20D5325F0018546E /* Build configuration list for PBXNativeTarget "DirectMessagingUITests" */;
 			buildPhases = (
+				70A6B3EA72C1F6C4574E45DB /* [CP] Check Pods Manifest.lock */,
 				00ED7B2820D5325F0018546E /* Sources */,
 				00ED7B2920D5325F0018546E /* Frameworks */,
 				00ED7B2A20D5325F0018546E /* Resources */,
@@ -251,13 +317,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3076EDD465A4D32CDAF08631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DirectMessaging/Pods-DirectMessaging-frameworks.sh",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectMessaging/Pods-DirectMessaging-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70A6B3EA72C1F6C4574E45DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DirectMessagingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ACB4C0EA9C321EE15319161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DirectMessaging-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB56E17B0EDEFADC121AE152 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DirectMessaging/Pods-DirectMessaging-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DirectMessaging/Pods-DirectMessaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF84C90BAE35CE14D65EDEA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DirectMessagingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00ED7B0920D5325D0018546E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00ED7B1320D5325D0018546E /* ViewController.swift in Sources */,
+				005A488620D57966006372FD /* HomeViewModel.swift in Sources */,
+				00C3ACBA20D5509700179BDB /* LoginViewController.swift in Sources */,
+				005A488020D561EC006372FD /* Follower.swift in Sources */,
+				00C3ACBC20D552BC00179BDB /* DirectMessaging.swift in Sources */,
+				005A488420D56BF1006372FD /* FollowersViewModel.swift in Sources */,
+				00ED7B1320D5325D0018546E /* HomeViewController.swift in Sources */,
+				005A488220D56249006372FD /* FollowersViewController.swift in Sources */,
 				00ED7B1120D5325D0018546E /* AppDelegate.swift in Sources */,
+				005A488A20D57CE7006372FD /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +598,12 @@
 		};
 		00ED7B3620D5325F0018546E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABB4F4515382D57462B1305 /* Pods-DirectMessaging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ853555CF;
 				INFOPLIST_FILE = DirectMessaging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +611,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Deepak.DirectMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,9 +619,12 @@
 		};
 		00ED7B3720D5325F0018546E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A226FA1781AF5EAB2FEF16E /* Pods-DirectMessaging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XJ853555CF;
 				INFOPLIST_FILE = DirectMessaging/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +632,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Deepak.DirectMessaging;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +640,7 @@
 		};
 		00ED7B3920D5325F0018546E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21C2F39BFDAB7792697FB11 /* Pods-DirectMessagingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +661,7 @@
 		};
 		00ED7B3A20D5325F0018546E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA7511C9C07EBE0B1EFF399 /* Pods-DirectMessagingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +682,7 @@
 		};
 		00ED7B3C20D5325F0018546E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4EAA7F739B1E1142319261 /* Pods-DirectMessagingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +702,7 @@
 		};
 		00ED7B3D20D5325F0018546E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C3F6D9655038DAC1F65C2AA /* Pods-DirectMessagingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
