@@ -11,9 +11,10 @@ import TwitterKit
 
 class FollowersViewModel{
     
+    var followersViewModelUpdated:(()->Void)?
     var followersViewModel:[Follower]?{
         didSet{
-            
+            followersViewModelUpdated!()
         }
     }
 
@@ -35,6 +36,8 @@ class FollowersViewModel{
             newFollower.id = (follower as! [String:Any])["id_str"] as? String
             newFollower.name = (follower as! [String:Any])["name"] as? String
             newFollower.location = (follower as! [String:Any])["location"] as? String
+            newFollower.screenName = (follower as! [String:Any])["screen_name"] as? String
+
             followers.append(newFollower)
         }
         return followers
@@ -47,6 +50,17 @@ class FollowersViewModel{
                 print(error.localizedDescription)
             }
         return nil
+    }
+    
+    func didTapOnFollowerWithIndexPath(indexPath:IndexPath){
+
+    }
+    
+    func sendMessage(message:String, indexPath:IndexPath, completion:@escaping ((_ response:URLResponse?, _ data:Data?, _ connectionError:Error?) -> Void)) {
+        let directMessaging = DirectMessaging()
+        directMessaging.sendMessage(message: message, screenName: self.followersViewModel![indexPath.row].screenName!, completion: { (response, data, error) in
+            completion(response,data,error)
+        })
     }
 
     

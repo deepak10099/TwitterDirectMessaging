@@ -12,4 +12,5 @@ class Follower{
     var id:String?
     var name:String?
     var location:String?
+    var screenName:String?
 }

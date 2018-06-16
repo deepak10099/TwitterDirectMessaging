@@ -26,14 +26,16 @@ class DirectMessaging {
         }
     }
     
-    func sendMessage(message:String, id:String, completion:@escaping ((_ response:URLResponse, _ data:Data, _ connectionError:Error) -> Void)) {
+    func sendMessage(message:String, screenName:String, completion:@escaping ((_ response:URLResponse?, _ data:Data?, _ connectionError:Error?) -> Void)) {
         if let session = TWTRTwitter.sharedInstance().sessionStore.session()! as? TWTRAuthSession {
             let client = TWTRAPIClient(userID: session.userID)
-            let directMessageShowEndpoint = "https://api.twitter.com/1.1/direct_messages/new.json?text=hello%2C%20tworld.%20welcome%20to%201.1.&screen_name=piyushshri"
+            var urlEncodedMessage = message.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+            var urlEncodedScreenName = screenName.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
+            let directMessageShowEndpoint = "https://api.twitter.com/1.1/direct_messages/new.json?text=\(urlEncodedMessage!)&screen_name=\(urlEncodedScreenName!)"
             var sendMessageRequest = client.urlRequest(withMethod: "POST", urlString: directMessageShowEndpoint, parameters: nil, error: nil)
             print(String(data: sendMessageRequest.httpBody!, encoding: String.Encoding.utf8) as String?)
             client.sendTwitterRequest(sendMessageRequest, completion: { (response, data, error) in
-                completion(response!, data!, error!)
+                completion(response, data, error)
             })
         }
     }
