@@ -103,6 +103,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		005A488F20D5A9CC006372FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				005A487F20D561EC006372FD /* Follower.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		005A489020D5A9D7006372FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				005A488520D57966006372FD /* HomeViewModel.swift */,
+				005A488920D57CE7006372FD /* LoginViewModel.swift */,
+				005A488320D56BF1006372FD /* FollowersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		005A489120D5A9EF006372FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00ED7B1420D5325D0018546E /* Main.storyboard */,
+				00ED7B1220D5325D0018546E /* HomeViewController.swift */,
+				00C3ACB920D5509700179BDB /* LoginViewController.swift */,
+				005A488120D56249006372FD /* FollowersViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		00ED7B0420D5325D0018546E = {
 			isa = PBXGroup;
 			children = (
@@ -128,19 +157,14 @@
 		00ED7B0F20D5325D0018546E /* DirectMessaging */ = {
 			isa = PBXGroup;
 			children = (
+				005A489120D5A9EF006372FD /* View */,
+				005A489020D5A9D7006372FD /* ViewModel */,
+				005A488F20D5A9CC006372FD /* Model */,
 				00ED7B1020D5325D0018546E /* AppDelegate.swift */,
-				00ED7B1220D5325D0018546E /* HomeViewController.swift */,
-				00C3ACB920D5509700179BDB /* LoginViewController.swift */,
 				00C3ACBB20D552BC00179BDB /* DirectMessaging.swift */,
-				005A488120D56249006372FD /* FollowersViewController.swift */,
-				00ED7B1420D5325D0018546E /* Main.storyboard */,
 				00ED7B1720D5325E0018546E /* Assets.xcassets */,
 				00ED7B1920D5325E0018546E /* LaunchScreen.storyboard */,
 				00ED7B1C20D5325E0018546E /* Info.plist */,
-				005A487F20D561EC006372FD /* Follower.swift */,
-				005A488520D57966006372FD /* HomeViewModel.swift */,
-				005A488920D57CE7006372FD /* LoginViewModel.swift */,
-				005A488320D56BF1006372FD /* FollowersViewModel.swift */,
 			);
 			path = DirectMessaging;
 			sourceTree = "<group>";

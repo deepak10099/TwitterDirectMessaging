@@ -21,11 +21,13 @@ class FollowersViewModel{
     func fetchFollowers(){
         let directMessaging = DirectMessaging()
         directMessaging.fetchStatus { (response, data, error) in
-            var myDict = self.convertToDictionary(data: data!)
-            print(myDict!["users"]!)
-            let followersArray:Array = myDict!["users"]! as! Array<Any>
-            print(followersArray)
-            self.followersViewModel = self.makeFollowersArray(array: followersArray)
+            if error == nil{
+                var myDict = self.convertToDictionary(data: data!)
+                print(myDict!["users"]!)
+                let followersArray:Array = myDict!["users"]! as! Array<Any>
+                print(followersArray)
+                self.followersViewModel = self.makeFollowersArray(array: followersArray)
+            }
         }
     }
     
@@ -45,7 +47,7 @@ class FollowersViewModel{
     
     func convertToDictionary(data: Data) -> [String: Any]? {
             do {
-                return try JSONSerialization.jsonObject(with: data, options: []) as! [String : Any]
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String : Any]
             } catch {
                 print(error.localizedDescription)
             }
